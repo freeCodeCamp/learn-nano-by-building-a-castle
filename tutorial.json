@@ -7,8 +7,8 @@
   "config": {
     "setup": {
       "commands": [
-        "cd freeCodeCamp && npm install",
-        "sudo cp ~/project/freeCodeCamp/.bashrc ~"
+        "cd .freeCodeCamp && npm install",
+        "sudo cp ~/project/.freeCodeCamp/.bashrc ~"
       ],
       "commits": [
         "fbcd334245efec8b2e615aa1fa2352066f1616fa"

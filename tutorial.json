@@ -11,7 +11,7 @@
         "sudo cp ~/project/.freeCodeCamp/.bashrc ~"
       ],
       "commits": [
-        "fbcd334245efec8b2e615aa1fa2352066f1616fa"
+        "42799b84083272a7f66e9dcf0180cc91fe537bc5"
       ]
     },
     "testRunner": {
@@ -46,7 +46,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "8cca9b6df773700e37bcbd8dd9af636edbf899e1"
+              "a2d146471410e023002ec3ce583d63b6a18b38ad"
             ]
           },
           "content": "**The first thing you need to do is start the terminal.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
@@ -70,7 +70,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "36eb8c602c2f301926faf0476f44334631f9a539"
+              "5ddf6d268c8feaa79d5f50a4521aad3fd7319dff"
             ]
           },
           "content": "Touch my-script.sh",
@@ -96,7 +96,7 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "b63c3acf063368b70d90ff2705c06af0877ac6cd"
+              "21b772092b1eef2e88ede8fda219022b44fc8f12"
             ]
           },
           "content": "Nano is a program that runs in the terminal for editing files. You can open a file with `nano filename`. Open the `bash-script.sh` file you created with Nano.",
@@ -121,7 +121,7 @@
               "./my-script.sh"
             ],
             "commits": [
-              "d883788cf41768492c99a16d307be22d9db5792f"
+              "946dfa84b961ea2948a4b4b31d5b293f26f665e6"
             ]
           },
           "content": "The terminal is showing your file in Nano. At the bottom are the commands for using within Nano. Your file is empty right now. Add `echo hello bash script` at the top and press `control+o` to \"write-out\" the file. You will be prompted at the bottom for the filename to save it as. Leave it as `bash-script.sh` and press enter to save the file.",
@@ -146,7 +146,7 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "47cb423bda70c4f031c6ad874b1828f4fe31251b"
+              "4800e606f3ddb5630aebfa6db5f1567fafcedbac"
             ]
           },
           "content": "Exit Nano by pressing `control+x`.",
@@ -171,7 +171,7 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "7ddc16f38c1a8e28b53497ace6a8876d66bd1520"
+              "c099617b9a68ff238c57ceda4937151bacb2676e"
             ]
           },
           "content": "You can run your script with `bash filename`. Run your script by typing `bash my-script.sh` into the terminal and pressing enter.",

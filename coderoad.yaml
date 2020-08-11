@@ -15,6 +15,7 @@ config:
   dependencies:
     - name: node
       version: '>=10'
+levels:
   - id: '10'
     steps:
       - id: '10.1'

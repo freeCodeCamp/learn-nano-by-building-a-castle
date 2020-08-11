@@ -1,0 +1,187 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "Learn Nano by Building a Bash Script",
+    "description": "> Welcome to the Nano lessons!"
+  },
+  "config": {
+    "setup": {
+      "commands": [
+        "cd freeCodeCamp && npm install",
+        "sudo cp ~/project/freeCodeCamp/.bashrc ~"
+      ],
+      "commits": [
+        "fbcd334245efec8b2e615aa1fa2352066f1616fa"
+      ]
+    },
+    "testRunner": {
+      "command": "./node_modules/.bin/mocha",
+      "args": {
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "directory": ".freeCodeCamp"
+    },
+    "repo": {
+      "uri": "https://github.com/moT01/learn-nano-by-building-a-bash-script",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "10",
+      "title": "Start the Terminal",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "10.1",
+          "setup": {
+            "watchers": [
+              "../.bash_history"
+            ],
+            "commits": [
+              "8cca9b6df773700e37bcbd8dd9af636edbf899e1"
+            ]
+          },
+          "content": "**The first thing you need to do is start the terminal.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
+          "hints": [
+            "Capitalization matters",
+            "If the tests don't run automatically, try typing `exit` into the terminal and redoing the instructions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Touch `my-script.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "20.1",
+          "setup": {
+            "watchers": [
+              "../.bash_history"
+            ],
+            "commits": [
+              "36eb8c602c2f301926faf0476f44334631f9a539"
+            ]
+          },
+          "content": "Touch my-script.sh",
+          "hints": [
+            "Use the touch command to create the file",
+            "Make sure you are in the `project` folder when you enter the command",
+            "Try entering touch `bash-script.sh` in the terminal",
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Nano `my-script.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "30.1",
+          "setup": {
+            "watchers": [
+              "./.freeCodeCamp/test/.next_command"
+            ],
+            "commits": [
+              "b63c3acf063368b70d90ff2705c06af0877ac6cd"
+            ]
+          },
+          "content": "Nano is a program that runs in the terminal for editing files. You can open a file with `nano filename`. Open the `bash-script.sh` file you created with Nano.",
+          "hints": [
+            "Type `pwd` into the terminal and press enter",
+            "Make sure you are in the `project` folder when you enter the command",
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Write out `my-script.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "40.1",
+          "setup": {
+            "watchers": [
+              "./my-script.sh"
+            ],
+            "commits": [
+              "d883788cf41768492c99a16d307be22d9db5792f"
+            ]
+          },
+          "content": "The terminal is showing your file in Nano. At the bottom are the commands for using within Nano. Your file is empty right now. Add `echo hello bash script` at the top and press `control+o` to \"write-out\" the file. You will be prompted at the bottom for the filename to save it as. Leave it as `bash-script.sh` and press enter to save the file.",
+          "hints": [
+            "Type `pwd` into the terminal and press enter",
+            "Make sure you are in the `project` folder when you enter the command",
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "Exit",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "50.1",
+          "setup": {
+            "watchers": [
+              "./.freeCodeCamp/test/.next_command"
+            ],
+            "commits": [
+              "47cb423bda70c4f031c6ad874b1828f4fe31251b"
+            ]
+          },
+          "content": "Exit Nano by pressing `control+x`.",
+          "hints": [
+            "Type `pwd` into the terminal and press enter",
+            "Make sure you are in the `project` folder when you enter the command",
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "title": "Run `my-script.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "60.1",
+          "setup": {
+            "watchers": [
+              "./.freeCodeCamp/test/.next_command"
+            ],
+            "commits": [
+              "7ddc16f38c1a8e28b53497ace6a8876d66bd1520"
+            ]
+          },
+          "content": "You can run your script with `bash filename`. Run your script by typing `bash my-script.sh` into the terminal and pressing enter.",
+          "hints": [
+            "Type `pwd` into the terminal and press enter",
+            "Make sure you are in the `project` folder when you enter the command",
+            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getFileContents } = require('./utils');
 
 describe('Your castle', () => {
@@ -7,7 +7,7 @@ describe('Your castle', () => {
     castleFile = await getFileContents('../castle.sh');
   });
 
-  it('should have a bottom row that matches the example', async () => {
-    assert(/^\s*echo\s+"\s*\n\|_{20}\|\s*\n\s*"\s*$/.test(castleFile));
+  it('should be drawn correctly', async () => {
+    assert(/^\s*echo\s+"\s*\n\| {20}\|\s*\n\|_{20}\|\s*\n\s*"\s*$/.test(castleFile));
   });
-});*/
+});

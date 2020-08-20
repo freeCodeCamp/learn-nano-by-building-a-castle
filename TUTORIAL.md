@@ -47,7 +47,8 @@ The terminal is showing your file in Nano. At the bottom are the commands for us
 
 #### HINTS
 
-- Put `echo hello nano` at the top of the file, press `control+o` then enter to save the file.
+- Put `echo hello nano` at the top of the file then press `control+o` then enter to save the file
+- Make sure the file was saved as `castle.sh`
 
 ## 50. Exit
 
@@ -96,14 +97,36 @@ You can "cut" text in nano with `control+k`. Move the cursor to the line with yo
 - Use `control+o` to save the file.
 - Press `enter` after `control+o` to save the file without changing the name
 
-## 90. Add bottom row to castle
+## 90. Add `echo ""`
 
 ### 90.1
 
-You are going to draw a castle. Add the bottom row of the castle by putting 20 underscores (`_`) in a row. It should look like this:
+You are going to draw a castle that you can print to the terminal. Add `echo ""`. Put an empty line in between the two quotes like this:
+
+```
+echo "
+
+"
+```
+
+When you are done, save the file.
+
+#### HINTS
+
+- Your file should match the example
+- Use `control+o` to save the file.
+- Press `enter` after `control+o` to save the file without changing the name
+
+## 100. Add bottom row to castle
+
+### 100.1
+
+You will draw the castle between the quotes. Add the bottom row of the castle by putting 20 underscores (`_`) in a row between the quotes. It should look like this:
 
 ```bash
+echo "
 ____________________
+"
 ```
 
 Save the file when you are done.
@@ -113,32 +136,65 @@ Save the file when you are done.
 - Your file should match the example
 - Use `control+o` to save the file.
 - Press `enter` after `control+o` to save the file without changing the name
-- Do not change the name of the file
 
-## 100. Add the bottom row sides
+## 110. Exit
 
-### 100.1
+### 110.1
 
-Add a vertical bar, or pipe (`|`), at each end of your bottom row. It should look like this:
+Exit Nano by pressing `control+x`.
+
+#### HINTS
+
+- Use `control+x` to exit nano
+- Make sure you are in the `castle.sh` file before you exit
+- Open the file with `nano castle.sh` if you need to open it first
+
+## 120. Run `castle.sh`
+
+### 120.1
+
+The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.
+
+#### HINTS
+
+- Type `bash castle.sh` in the terminal
+- Make sure you are in the `project` folder when you enter the command
+
+## 130. Nano `castle.sh`
+
+### 130.1
+
+You can see the command in your file ran and output text into the terminal. Open your file again with nano.
+
+#### HINTS
+
+- Type `nano castle.sh` in the terminal
+- Make sure you are in the `project` folder when you enter the command
+
+## 140. Add the bottom row sides
+
+### 140.1
+
+Okay, it's working. Add a vertical bar, or pipe (`|`), at each end of your bottom row. It should look like this:
 
 ```
 |____________________|
 ```
 
-and save the file.
+Save the file when you are done.
 
 #### HINTS
 
-- Your file should match the example
+- Don't change the other rows
+- Your castle should match the example
 - Use `control+o` to save the file.
 - Press `enter` after `control+o` to save the file without changing the name
-- Do not change the name of the file
 
-## 110. Add second row
+## 150. Add second row
 
-### 110.1
+### 150.1
 
-Add a row above your bottom row with two more vertical bars. Each bar should be above your existing bars. It should look like this:
+Add another story to your castle above the bottom row with two more vertical bars. Each bar should be above your existing bars. It should look like this:
 
 ```bash
 |                    |
@@ -154,9 +210,43 @@ When you are done, save the file.
 - Press `enter` after `control+o` to save the file without changing the name
 - Do not change the name of the file
 
-## 120. Add the sides of the castle
+## 160. Exit
 
-### 120.1
+### 160.1
+
+Exit Nano by pressing `control+x`.
+
+#### HINTS
+
+- Use `control+x` to exit nano
+- Make sure you are in the `castle.sh` file before you exit
+- Open the file with `nano castle.sh` if you need to open it first
+
+## 170. Run `castle.sh`
+
+### 170.1
+
+The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.
+
+#### HINTS
+
+- Type `bash castle.sh` in the terminal
+- Make sure you are in the `project` folder when you enter the command
+
+## 180. Nano `castle.sh`
+
+### 180.1
+
+You can see the command in your file ran and output text into the terminal. Open your file again with nano.
+
+#### HINTS
+
+- Type `nano castle.sh` in the terminal
+- Make sure you are in the `project` folder when you enter the command
+
+## 190. Add the sides of the castle
+
+### 190.1
 
 You can use `control+k` to "cut" and `control+u` to "uncut", or paste a line. Add five more rows like you just added to make your castle six stories high. Try to use the cut and paste method. It should look like this:
 
@@ -173,14 +263,14 @@ When you are done, save the file.
 
 #### HINTS
 
-- Your file should match the example
+- Your castle should match the example
 - Use `control+o` to save the file.
 - Press `enter` after `control+o` to save the file without changing the name
 - Do not change the name of the file
 
-## 130. Add a roof to the castle
+## 200. Add a roof to the castle
 
-### 130.1
+### 200.1
 
 The existing top row is going to be the roof of the castle. Make it look like this:
 
@@ -198,9 +288,43 @@ Do not change any of the other rows. When you are done, save the file.
 - Press `enter` after `control+o` to save the file without changing the name
 - Do not change the name of the file
 
-## 140. Add the second from top row
+## 210. Exit
 
-### 140.1
+### 210.1
+
+Exit Nano by pressing `control+x`.
+
+#### HINTS
+
+- Use `control+x` to exit nano
+- Make sure you are in the `castle.sh` file before you exit
+- Open the file with `nano castle.sh` if you need to open it first
+
+## 220. Run `castle.sh`
+
+### 220.1
+
+The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.
+
+#### HINTS
+
+- Type `bash castle.sh` in the terminal
+- Make sure you are in the `project` folder when you enter the command
+
+## 230. Nano `castle.sh`
+
+### 230.1
+
+You can see the command in your file ran and output text into the terminal. Open your file again with nano.
+
+#### HINTS
+
+- Type `nano castle.sh` in the terminal
+- Make sure you are in the `project` folder when you enter the command
+
+## 240. Add the second from top row
+
+### 240.1
 
 The top of the castle has a lookout tower on each end. Add a single row at the top of your castle to make the top look like this:
 
@@ -213,15 +337,14 @@ Only add the top row. When are done, save the file.
 
 #### HINTS
 
-- Your top row should match the top row of the example
+- The of the castle should match the top row of the example
 - The castle should now be eight stories high
 - Use `control+o` to save the file.
 - Press `enter` after `control+o` to save the file without changing the name
-- Do not change the name of the file
 
-## 150. Add the peaks
+## 250. Add the peaks
 
-### 150.1
+### 250.1
 
 Add the peaks of your lookout towers. Put another row at the top with `/\` above each lookout. It should look like this:
 
@@ -240,54 +363,37 @@ When you are done, save the file.
 - Press `enter` after `control+o` to save the file without changing the name
 - Do not change the name of the file
 
-## 160. Echo your castle
+## 260. Exit
 
-### 160.1
+### 260.1
 
-Make your castle print to the command line. Add a row above your castle with `echo "`, put another `"` on a new row below the castle. It should look like this:
-
-```bash
-echo "
- /\                /\
-/  \              /  \
-|  |______________|  |
-|                    |
-|   []    []    []   |
-|                    |
-|                    |
-|                    |
-|____________________|
-"
-```
-
-When you are done, save the file.
+Exit Nano by pressing `control+x`.
 
 #### HINTS
 
-- Your file should match the example
-- Use `control+o` to save the file.
-- Press `enter` after `control+o` to save the file without changing the name
-- Do not change the name of the file
+- Use `control+x` to exit nano
+- Make sure you are in the `castle.sh` file before you exit
+- Open the file with `nano castle.sh` if you need to open it first
 
-## 170. Exit nano
+## 270. Run `castle.sh`
 
-### 170.1
+### 270.1
 
-Use `control+x` to exit nano.
-
-#### HINTS
-
-- Use `nano` to open up your file
-- Type `nano castle.sh` in the terminal
-- Make sure you are in the `project` folder when you enter the command
-
-## 180. Run `castle.sh`
-
-### 180.1
-
-Run your script with `bash castle.sh`
+The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.
 
 #### HINTS
 
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+
+## 280. Nano `castle.sh`
+
+### 280.1
+
+You can see the command in your file ran and output text into the terminal. Open your file again with nano.
+
+#### HINTS
+
+- Type `nano castle.sh` in the terminal
+- Make sure you are in the `project` folder when you enter the command
+

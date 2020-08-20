@@ -81,19 +81,19 @@ levels:
       - id: '110.1'
         setup:
           watchers:
-            - ./castle.sh
+            - ./.freeCodeCamp/test/.next_command
   - id: '120'
     steps:
       - id: '120.1'
         setup:
           watchers:
-            - ./castle.sh
+            - ../.bash_history
   - id: '130'
     steps:
       - id: '130.1'
         setup:
           watchers:
-            - ./castle.sh
+            - ./.freeCodeCamp/test/.next_command
   - id: '140'
     steps:
       - id: '140.1'
@@ -111,16 +111,76 @@ levels:
       - id: '160.1'
         setup:
           watchers:
-            - ./castle.sh
+            - ./.freeCodeCamp/test/.next_command
   - id: '170'
     steps:
       - id: '170.1'
         setup:
           watchers:
-            - ./.freeCodeCamp/test/.next_command
+            - ../.bash_history
   - id: '180'
     steps:
       - id: '180.1'
         setup:
           watchers:
+            - ./.freeCodeCamp/test/.next_command
+  - id: '190'
+    steps:
+      - id: '190.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '200'
+    steps:
+      - id: '200.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '210'
+    steps:
+      - id: '210.1'
+        setup:
+          watchers:
+            - ./.freeCodeCamp/test/.next_command
+  - id: '220'
+    steps:
+      - id: '220.1'
+        setup:
+          watchers:
             - ../.bash_history
+  - id: '230'
+    steps:
+      - id: '230.1'
+        setup:
+          watchers:
+            - ./.freeCodeCamp/test/.next_command
+  - id: '240'
+    steps:
+      - id: '240.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '250'
+    steps:
+      - id: '250.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '260'
+    steps:
+      - id: '260.1'
+        setup:
+          watchers:
+            - ./.freeCodeCamp/test/.next_command
+  - id: '270'
+    steps:
+      - id: '270.1'
+        setup:
+          watchers:
+            - ../.bash_history
+  - id: '280'
+    steps:
+      - id: '280.1'
+        setup:
+          watchers:
+            - ./.freeCodeCamp/test/.next_command

@@ -76,7 +76,7 @@ The `.sh` extensions on your file means it can run in the terminal as if you ent
 
 ### 70.1
 
-Open your file again with nano.
+You can see the command in your file ran and output text into the terminal. Open your file again with nano.
 
 #### HINTS
 

@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 const { getFileContents } = require('./utils');
 
 describe('Your castle', () => {
@@ -8,6 +8,6 @@ describe('Your castle', () => {
   });
 
   it('should be drawn correctly', async () => {
-    assert(/^\s*echo\s+"\s*\n(\| {20}\|\s*\n){5}\|_{20}\|\s*\n\s*"\s*$/.test(castleFile));
+    assert(/^\s*echo\s+"\s*\n\|  \|_{14}\|  \|\s*\n(\| {20}\|\s*\n){4}\|_{20}\|\s*\n\s*"\s*$/.test(castleFile));
   });
-});*/
+});

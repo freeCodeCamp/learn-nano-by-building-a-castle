@@ -10,7 +10,7 @@ config:
       tap: --reporter=mocha-tap-reporter
     directory: .freeCodeCamp
   repo:
-    uri: https://github.com/moT01/learn-nano-by-building-a-bash-script
+    uri: https://github.com/moT01/learn-nano-by-building-a-castle
     branch: v0.1.0
   dependencies:
     - name: node
@@ -39,7 +39,7 @@ levels:
       - id: '40.1'
         setup:
           watchers:
-            - ./my-script.sh
+            - ./castle.sh
   - id: '50'
     steps:
       - id: '50.1'
@@ -51,4 +51,76 @@ levels:
       - id: '60.1'
         setup:
           watchers:
+            - ../.bash_history
+  - id: '70'
+    steps:
+      - id: '70.1'
+        setup:
+          watchers:
             - ./.freeCodeCamp/test/.next_command
+  - id: '80'
+    steps:
+      - id: '80.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '90'
+    steps:
+      - id: '90.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '100'
+    steps:
+      - id: '100.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '110'
+    steps:
+      - id: '110.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '120'
+    steps:
+      - id: '120.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '130'
+    steps:
+      - id: '130.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '140'
+    steps:
+      - id: '140.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '150'
+    steps:
+      - id: '150.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '160'
+    steps:
+      - id: '160.1'
+        setup:
+          watchers:
+            - ./castle.sh
+  - id: '170'
+    steps:
+      - id: '170.1'
+        setup:
+          watchers:
+            - ./.freeCodeCamp/test/.next_command
+  - id: '180'
+    steps:
+      - id: '180.1'
+        setup:
+          watchers:
+            - ../.bash_history

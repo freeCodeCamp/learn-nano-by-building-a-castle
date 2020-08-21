@@ -11,7 +11,7 @@
         "sudo cp ~/project/.freeCodeCamp/.bashrc ~"
       ],
       "commits": [
-        "e6de9f36dd961bfa5f3b604e8418e73ae5486744"
+        "76bafeb1fb9500b4f5239b6f723272c1240de91f"
       ]
     },
     "testRunner": {
@@ -46,7 +46,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "5b5d775788cee61f4bdd4f32b7371527e8058fa1"
+              "98fbd033d94f6682af390be53c294446cb22c692"
             ]
           },
           "content": "**The first thing you need to do is start the terminal.** Do that by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello terminal` into the terminal and press enter.",
@@ -71,7 +71,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ad934336921de76a4e111cd8add0991835a86834"
+              "700e7f88640dd26747f6b2d919e04b4a1b29d01d"
             ]
           },
           "content": "Use `touch` to create a file named `castle.sh` in the `project` folder.",
@@ -97,14 +97,14 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "93e62e60ef896dfe5131d47249328810b52c4a08"
+              "26c024da5f0498ab791ea72c254880d129556985"
             ]
           },
-          "content": "Nano is a program that runs in the terminal for editing files. You can open a file in it with `nano filename`. Open the `castle.sh` file you created with Nano.",
+          "content": "Nano is a program for editing files that runs in the terminal. You can open a file with `nano filename`. Open the `castle.sh` file you created with Nano.",
           "hints": [
             "Type `nano castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command",
-            "You can exit nano by pressing `control+x` if you opened the wrong file"
+            "You can exit nano by pressing `control + x` if you opened the wrong file"
           ]
         }
       ]
@@ -122,12 +122,12 @@
               "./castle.sh"
             ],
             "commits": [
-              "06e8141ba9869dfc779ffaa5930da00e2ff9c38e"
+              "fc236e7feb1d63f1f5b963f41a148b887aa59252"
             ]
           },
-          "content": "The terminal is showing your file in Nano. At the bottom are the commands for using within Nano. Your file is empty right now. Add `echo hello nano` at the top and press `control+o` to \"write-out\", or save, the file. You will be prompted at the bottom for the filename to save it as. Leave it as `castle.sh` and press enter to save the file.",
+          "content": "The terminal is showing your file in Nano. At the bottom are the commands you can use. Your file is empty right now. Add `echo hello nano` at the top and press `control + o` to \"write-out\", or save, the file. You will be prompted at the bottom for a filename. Leave it as `castle.sh` and press enter to save the file.",
           "hints": [
-            "Put `echo hello nano` at the top of the file then press `control+o` then enter to save the file",
+            "Put `echo hello nano` at the top of the file, then press `control + o`, then `enter` to save the file",
             "Make sure the file was saved as `castle.sh`"
           ]
         }
@@ -146,12 +146,12 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "0ab2adb30fdbb9851bcd181676771d62b1dca72f"
+              "f40c1e315dd6037645ca0bfebd16f0b52be243d4"
             ]
           },
-          "content": "Exit Nano by pressing `control+x`.",
+          "content": "Exit Nano by pressing `control + x`.",
           "hints": [
-            "Use `control+x` to exit nano",
+            "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
             "Open the file with `nano castle.sh` if you need to open it first"
           ]
@@ -171,10 +171,10 @@
               "../.bash_history"
             ],
             "commits": [
-              "f8160cd233fa9be0a16cd2344a727460be734b87"
+              "a6c7fd2dd08ef20078edaa58b42399f386b0e5a8"
             ]
           },
-          "content": "The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.",
+          "content": "The `.sh` extension on your file means it can run in the terminal as if you entered the commands. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.",
           "hints": [
             "Type `bash castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
@@ -195,7 +195,7 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "91118ff4baf24b731fe426cc273df4f18e0f4085"
+              "2082d5f46515209fbf84a0fa8ed846d1331372d5"
             ]
           },
           "content": "You can see the command in your file ran and output text into the terminal. Open your file again with nano.",
@@ -219,15 +219,15 @@
               "./castle.sh"
             ],
             "commits": [
-              "7f9e1d74d1bffb0a1d2b35da8b77659b8e90b62f"
+              "a17fb953d18987025a09b04647294619aa5b1178"
             ]
           },
-          "content": "You can \"cut\" text in nano with `control+k`. Move the cursor to the line with your text and remove the whole line. When you are done, save the file. Note the you cannot use a mouse to move your cursor.",
+          "content": "You can \"cut\" text with `control + k`. Move the cursor to the line with your text and remove the whole line. When you are done, save the file. Note that you cannot use a mouse to move your cursor.",
           "hints": [
+            "You cannot use a mouse to move your cursor",
             "Remove the `echo hello nano` line of text and save the file",
-            "Do not change the name of the file",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name"
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
@@ -245,21 +245,21 @@
               "./castle.sh"
             ],
             "commits": [
-              "d8e77b7cd40311334bd68f31b3d6e354a191ed45"
+              "b542ec46652335ac11ee7aa8d627d8f6bde91395"
             ]
           },
-          "content": "You are going to draw a castle that you can print to the terminal. Add `echo \"\"`. Put an empty line in between the two quotes like this:\n\n```\necho \"\n\n\"\n```\n\nWhen you are done, save the file.",
+          "content": "You are going to draw a castle that you can print to the terminal. Add `echo \"\"` to your file. Put an empty line in between the two quotes like this:\n\n```\necho \"\n\n\"\n```\n\nWhen you are done, save the file.",
           "hints": [
             "Your file should match the example",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name"
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
     },
     {
       "id": "100",
-      "title": "Add bottom row to castle",
+      "title": "Add the bottom row to castle",
       "summary": "",
       "content": "",
       "steps": [
@@ -270,14 +270,14 @@
               "./castle.sh"
             ],
             "commits": [
-              "f7d7863aa98730b67322ecb6685dbcb60fe7f662"
+              "814782afc8c1db62a7c020393fd50227ce4986d3"
             ]
           },
-          "content": "You will draw the castle between the quotes. Add the bottom row of the castle by putting 20 underscores (`_`) in a row between the quotes. It should look like this:\n\n```bash\necho \"\n____________________\n\"\n```\n\nSave the file when you are done.",
+          "content": "You will draw the castle between the quotes. Add ground level by putting 20 underscores (`_`) in the row between the quotes. It should look like this:\n\n```\necho \"\n____________________\n\"\n```\n\nSave the file when you are done.",
           "hints": [
             "Your file should match the example",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name"
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
@@ -295,12 +295,12 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "98af227355e9cbd0443b97a2ebaa01765b864ea5"
+              "a7d12dfb63ee863d808c30a3cd6ef74f66d59c9e"
             ]
           },
-          "content": "Exit Nano by pressing `control+x`.",
+          "content": "The `^` in front of all the commands at the bottom means to press `control` and the letter to run the command. Exit Nano with the `Exit` command.",
           "hints": [
-            "Use `control+x` to exit nano",
+            "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
             "Open the file with `nano castle.sh` if you need to open it first"
           ]
@@ -320,10 +320,10 @@
               "../.bash_history"
             ],
             "commits": [
-              "e619f04750f8ada1936faf0a0a02f5b8e5be13c3"
+              "2092998c8cc72cf9d3c9625b37e1be465520d48d"
             ]
           },
-          "content": "The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.",
+          "content": "Use the `bash` command to run your `castle.sh` file in the terminal again.",
           "hints": [
             "Type `bash castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
@@ -344,10 +344,10 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "71e67d560eafdf58138f56404a222c4ad90c9cff"
+              "e14936967b1dbfc32a4c6dd8f70b1a4f23defe2f"
             ]
           },
-          "content": "You can see the command in your file ran and output text into the terminal. Open your file again with nano.",
+          "content": "Looks like it's working. Open your file with Nano.",
           "hints": [
             "Type `nano castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
@@ -368,15 +368,15 @@
               "./castle.sh"
             ],
             "commits": [
-              "51d79cbdf498069809dd53e56b8e121f52cccd02"
+              "39fb63d03a5f1521a5eec1149009bccb1bfa4fdf"
             ]
           },
-          "content": "Okay, it's working. Add a vertical bar, or pipe (`|`), at each end of your bottom row. It should look like this:\n\n```\n|____________________|\n```\n\nSave the file when you are done.",
+          "content": "Add a vertical bar, or pipe (`|`), at each end of your ground level. It should look like this:\n\n```\n|____________________|\n```\n\nSave the file when you are done.",
           "hints": [
             "Don't change the other rows",
             "Your castle should match the example",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name"
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
@@ -394,15 +394,15 @@
               "./castle.sh"
             ],
             "commits": [
-              "b84c211b21fe925d4eec7073765ff14c5b4f1646"
+              "bc5a481dac8f5b9d407307d4b2125c320450c48c"
             ]
           },
-          "content": "Add another story to your castle above the bottom row with two more vertical bars. Each bar should be above your existing bars. It should look like this:\n\n```bash\n|                    |\n|____________________|\n```\n\nWhen you are done, save the file.",
+          "content": "Add another story to your castle above the ground level that has two more vertical bars. Each bar should be above your existing bars so you need spaces in between them. It should look like this:\n\n```\n|                    |\n|____________________|\n```\n\nWhen you are done, save the file.",
           "hints": [
-            "Your file should match the example",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name",
-            "Do not change the name of the file"
+            "Don't change the other rows",
+            "Your castle should match the example",
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
@@ -420,12 +420,12 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "159510b3eed65e7a55a0d00664400615e2802da4"
+              "57f55f88126904da0e7995d723216b0b08d629e7"
             ]
           },
-          "content": "Exit Nano by pressing `control+x`.",
+          "content": "Exit Nano so we can run the script again.",
           "hints": [
-            "Use `control+x` to exit nano",
+            "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
             "Open the file with `nano castle.sh` if you need to open it first"
           ]
@@ -445,10 +445,10 @@
               "../.bash_history"
             ],
             "commits": [
-              "0ac2b3c06b879716cbb190676d8a91cbcf94ac84"
+              "571c4012f7f457e05b4f59f08be3814e67779047"
             ]
           },
-          "content": "The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.",
+          "content": "Run your file again to see the progress.",
           "hints": [
             "Type `bash castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
@@ -469,11 +469,12 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "60ff3a00008599701cd3e5f7107c3fa6beeefdef"
+              "3ef47591ab7627546221ecb7be7709d031c9d94a"
             ]
           },
-          "content": "You can see the command in your file ran and output text into the terminal. Open your file again with nano.",
+          "content": "Open your file again so you can add some more.",
           "hints": [
+            "Use Nano to open the file",
             "Type `nano castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
           ]
@@ -493,15 +494,14 @@
               "./castle.sh"
             ],
             "commits": [
-              "63fb5146be961d4f4201e740887842c19faa7169"
+              "f924fb384415f0646761547e21646a0d34550be6"
             ]
           },
-          "content": "You can use `control+k` to \"cut\" and `control+u` to \"uncut\", or paste a line. Add five more rows like you just added to make your castle six stories high. Try to use the cut and paste method. It should look like this:\n\n```bash\n|                    |\n|                    |\n|                    |\n|                    |\n|                    |\n|____________________|\n```\n\nWhen you are done, save the file.",
+          "content": "You can use `control + k` to \"cut\" and `control + u` to \"uncut\", or paste, a line. Add five more rows like you just added to make your castle six stories high. Try to use the cut and paste method. It should look like this:\n\n```\n|                    |\n|                    |\n|                    |\n|                    |\n|                    |\n|____________________|\n```\n\nWhen you are done, save the file.",
           "hints": [
             "Your castle should match the example",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name",
-            "Do not change the name of the file"
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
@@ -519,16 +519,16 @@
               "./castle.sh"
             ],
             "commits": [
-              "a27ac7ef8826d0445cefdc1eaf5ec5983d902ea5"
+              "341e0bb7e155ee325177e050dca50183b926ee16"
             ]
           },
-          "content": "The existing top row is going to be the roof of the castle. Make it look like this:\n\n```bash\n|  |______________|  |\n```\n\nDo not change any of the other rows. When you are done, save the file.",
+          "content": "The existing top row is going to be the roof of the castle. Make it look like this:\n\n```\n|  |______________|  |\n```\n\nThere's two spaces between the first and second bars, followed by 14 underscores and then a repeat of the bars and spaces. When you are done, save the file.",
           "hints": [
+            "Make sure your castle is still six stories high",
             "Your top row should match the example",
             "You should not change any other rows",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name",
-            "Do not change the name of the file"
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
@@ -546,12 +546,12 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "75952b51a526d2c82685fbabac8c959d23db2a7c"
+              "79f61460405ddffd709ca70e9609f849494d0a05"
             ]
           },
-          "content": "Exit Nano by pressing `control+x`.",
+          "content": "Use the exit command to get back to the terminal.",
           "hints": [
-            "Use `control+x` to exit nano",
+            "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
             "Open the file with `nano castle.sh` if you need to open it first"
           ]
@@ -571,11 +571,12 @@
               "../.bash_history"
             ],
             "commits": [
-              "c7f4d43c6a10792aa69154e848b052367a7b2ef7"
+              "82978cf8a923ce7d53a710265e97f45aad481de2"
             ]
           },
-          "content": "The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.",
+          "content": "Run the script to make sure things are coming along as expected.",
           "hints": [
+            "Use the `bash` command to run the script",
             "Type `bash castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
           ]
@@ -595,10 +596,10 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "737c6467d049dbc52b03ddcdf69dbeb854257002"
+              "52b59107e74c30bc77e005db2907826f4cf2088b"
             ]
           },
-          "content": "You can see the command in your file ran and output text into the terminal. Open your file again with nano.",
+          "content": "That construction team must be working hard :smile: Open the file again to continue building.",
           "hints": [
             "Type `nano castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
@@ -619,15 +620,15 @@
               "./castle.sh"
             ],
             "commits": [
-              "e139f40724a279fccbc4af4d3c31de53a30390f4"
+              "b517af8e8b3f00a97d53c43e28dbf15c60721aed"
             ]
           },
-          "content": "The top of the castle has a lookout tower on each end. Add a single row at the top of your castle to make the top look like this:\n\n```bash\n/  \\              /  \\\n|  |______________|  |\n```\n\nOnly add the top row. When are done, save the file.",
+          "content": "The top of the castle has a lookout tower on each end. Add a single row at the top of your castle to make the top look like this:\n\n```\n/  \\              /  \\\n|  |______________|  |\n```\n\nThe slashes are directly above the vertical bars with two spaces in between again. When you are done, save the file.",
           "hints": [
-            "The of the castle should match the top row of the example",
-            "The castle should now be eight stories high",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name"
+            "The top of the castle should match the top row of the example",
+            "The castle should now be seven stories high",
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
@@ -645,16 +646,15 @@
               "./castle.sh"
             ],
             "commits": [
-              "375189c3786ff0513ddc00fd130fc6373306e695"
+              "ca162f3165dc905aeb6345f75854c236a0d8ede3"
             ]
           },
-          "content": "Add the peaks of your lookout towers. Put another row at the top with `/\\` above each lookout. It should look like this:\n\n```bash\n /\\                /\\\n/  \\              /  \\\n```\n\nWhen you are done, save the file.",
+          "content": "Add the peaks of your lookout towers. Put another row at the top with `/\\` above each lookout. It should look like this:\n\n```\n /\\                /\\\n/  \\              /  \\\n```\n\nWhen you are done, save the file.",
           "hints": [
             "Your top row should match the top row of the example",
             "The castle should now be nine stories high",
-            "Use `control+o` to save the file.",
-            "Press `enter` after `control+o` to save the file without changing the name",
-            "Do not change the name of the file"
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
           ]
         }
       ]
@@ -672,12 +672,12 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "774a7e15d17581f5ea2a7b695c53321e89f8ef5a"
+              "c7bce10e0fb0f3b609b56aa18080efa89e050f8f"
             ]
           },
-          "content": "Exit Nano by pressing `control+x`.",
+          "content": "Go back to the terminal with the exit command.",
           "hints": [
-            "Use `control+x` to exit nano",
+            "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
             "Open the file with `nano castle.sh` if you need to open it first"
           ]
@@ -697,11 +697,12 @@
               "../.bash_history"
             ],
             "commits": [
-              "2f7f2372d5b5842992904aa84f401ed533b5881f"
+              "b947ea3944df73e594bac2e5f0e16be8ebb146db"
             ]
           },
-          "content": "The `.sh` extensions on your file means it can run in the terminal as if you entered the commands right in there. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.",
+          "content": "Run your script to bask in the glory of your work.",
           "hints": [
+            "Use `bash` to run the script",
             "Type `bash castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
           ]
@@ -721,12 +722,317 @@
               "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "dd0e16b45749ddd7004ceecd8748ce55c6c37d2e"
+              "d13d9175763e9bad647b8189800039b7fc38796d"
             ]
           },
-          "content": "You can see the command in your file ran and output text into the terminal. Open your file again with nano.",
+          "content": "Oh no!! :open_mouth: Looks like a storm came through and blew the roof off! I think we can fix it. Open up the file.",
           "hints": [
+            "Use the `nano` command to open your file",
             "Type `nano castle.sh` in the terminal",
+            "Make sure you are in the `project` folder when you enter the command"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "290",
+      "title": "Fix the roof",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "290.1",
+          "setup": {
+            "watchers": [
+              "./castle.sh"
+            ],
+            "commits": [
+              "733f72e5981e13aa0c02ce817f832245fd226384"
+            ]
+          },
+          "content": "I'm not quite sure what happened here... Some of the `\\` don't seem to be working. Try adding a space after the two `\\` on the top right lookout tower. Put them where these `x`'s are:\n\n```\n /\\                /\\x\n/  \\              /  \\x\n```\n\nMaybe that will patch the roof. When you are done, save the file.",
+          "hints": [
+            "Put a space in place each `x` in the example",
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "300",
+      "title": "Exit",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "300.1",
+          "setup": {
+            "watchers": [
+              "./.freeCodeCamp/test/.next_command"
+            ],
+            "commits": [
+              "60d5a029100f221e85880da57445e864eb5af1a7"
+            ]
+          },
+          "content": "Go back to the terminal so you can run the script again.",
+          "hints": [
+            "Use `control + x` to exit nano",
+            "Make sure you are in the `castle.sh` file before you exit",
+            "Open the file with `nano castle.sh` if you need to open it first"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "310",
+      "title": "Run `castle.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "310.1",
+          "setup": {
+            "watchers": [
+              "../.bash_history"
+            ],
+            "commits": [
+              "945c9e3e8fca879a8d63144c9a11fed7892cb4e8"
+            ]
+          },
+          "content": "Run the script to see if the roof is fixed.",
+          "hints": [
+            "Use `bash` to run the script",
+            "Type `bash castle.sh` in the terminal",
+            "Make sure you are in the `project` folder when you enter the command"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "title": "Nano `castle.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "320.1",
+          "setup": {
+            "watchers": [
+              "./.freeCodeCamp/test/.next_command"
+            ],
+            "commits": [
+              "2676757e1fcb42976a7986e1608dd08ba8af5df5"
+            ]
+          },
+          "content": "Okay, it's all patched up. Open the file again.",
+          "hints": [
+            "Use the `nano` command to open your file",
+            "Type `nano castle.sh` in the terminal",
+            "Make sure you are in the `project` folder when you enter the command"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "330",
+      "title": "Add windows",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "330.1",
+          "setup": {
+            "watchers": [
+              "./castle.sh"
+            ],
+            "commits": [
+              "0cc704f9aa207743960058c2b6818d1c3b6487c0"
+            ]
+          },
+          "content": "Add some windows to your castle. Use a left and right bracket for them (`[]`). Put three of them on the fourth story, like this:\n\n```\n|   []    []    []   |\n```\n\nThere's four spaces between each window and three on each side. Save the file when you are done.",
+          "hints": [
+            "Add three windows to the fourth row from the bottom exactly like the example",
+            "There's three spaces between a `|` and window",
+            "There's four spaces between a window and another window",
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "340",
+      "title": "Add the door",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "340.1",
+          "setup": {
+            "watchers": [
+              "./castle.sh"
+            ],
+            "commits": [
+              "f253ad1ceb46afcb5fe630045483f37c70a6cefa"
+            ]
+          },
+          "content": "Last is the door. Change the bottom two rows so there's a door right in the middle that looks like this:\n\n```\n|         __         |\n|________|  |________|\n```\n\nThe bottom row has two vertical bars with two spaces between them and the second story has two underscore to make the top of the door. When you are done, save the file.",
+          "hints": [
+            "Make sure your bottom two rows look like the example",
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "350",
+      "title": "Exit",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "350.1",
+          "setup": {
+            "watchers": [
+              "./.freeCodeCamp/test/.next_command"
+            ],
+            "commits": [
+              "d395fde61fb1fa0cbb1ccc7468e6d5afafff8f9b"
+            ]
+          },
+          "content": "Go back to the terminal with the command to exit nano.",
+          "hints": [
+            "Use `control + x` to exit nano",
+            "Make sure you are in the `castle.sh` file before you exit",
+            "Open the file with `nano castle.sh` if you need to open it first"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "360",
+      "title": "Run `castle.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "360.1",
+          "setup": {
+            "watchers": [
+              "../.bash_history"
+            ],
+            "commits": [
+              "576d24b2eaefddf22aaab4eede04291e3cf659b8"
+            ]
+          },
+          "content": "Run your script again. Hopefully the weather has been good.",
+          "hints": [
+            "Use `bash` to run the script",
+            "Type `bash castle.sh` in the terminal",
+            "Make sure you are in the `project` folder when you enter the command"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "370",
+      "title": "Nano `castle.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "370.1",
+          "setup": {
+            "watchers": [
+              "./.freeCodeCamp/test/.next_command"
+            ],
+            "commits": [
+              "4c0badae73b8f408824315b7709bc0436005d7e4"
+            ]
+          },
+          "content": "Excellent. Open the file, I think there's one more thing you can add.",
+          "hints": [
+            "Use the `nano` command to open your file",
+            "Type `nano castle.sh` in the terminal",
+            "Make sure you are in the `project` folder when you enter the command"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "380",
+      "title": "Add a welcome",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "380.1",
+          "setup": {
+            "watchers": [
+              "./castle.sh"
+            ],
+            "commits": [
+              "41695f1d2c821a45710cbe1ecfcd3f43a7e4f7b2"
+            ]
+          },
+          "content": "At the very top of the file, add another `echo` command with two quotes and an empty line between the quotes. In the empty line put the message, \"Welcome to my castle\". Here's an example:\n\n```\necho \"\nmessage here\n\"\n```\n\nWhen you are done, save the file.",
+          "hints": [
+            "Add the code above but replace `message here` with the correct message",
+            "The correct message is `Welcome to my castle`",
+            "Put all this at the very top of the file",
+            "Use `control + o` to save the file",
+            "Press `enter` after `control + o` to save the file without changing the name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "390",
+      "title": "Exit",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "390.1",
+          "setup": {
+            "watchers": [
+              "./.freeCodeCamp/test/.next_command"
+            ],
+            "commits": [
+              "e6590e126ce8f4b9e4ac94b7485e12b319b28a37"
+            ]
+          },
+          "content": "Go back to the terminal with the exit command so you can see if it's all done.",
+          "hints": [
+            "Use `control + x` to exit nano",
+            "Make sure you are in the `castle.sh` file before you exit",
+            "Open the file with `nano castle.sh` if you need to open it first"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "title": "Run `castle.sh`",
+      "summary": "",
+      "content": "",
+      "steps": [
+        {
+          "id": "400.1",
+          "setup": {
+            "watchers": [
+              "../.bash_history"
+            ],
+            "commits": [
+              "3559a808a93886d14d7a49e223967b6fd1c2afa2"
+            ]
+          },
+          "content": "Run the script to see your final product :smile:",
+          "hints": [
+            "Use `bash` to run the script",
+            "Type `bash castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command"
           ]
         }

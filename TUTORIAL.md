@@ -27,11 +27,23 @@ Use `touch` to create a file named `castle.sh` in the `project` folder.
 - Try entering `touch castle.sh` in the terminal
 - Enter `cd ~/project` to get to the project folder if you aren't there
 
+## 25. List contents
+
+### 25.1
+
+Use the list (`ls`) command to make sure your file is there.
+
+#### HINTS
+
+- Type `ls` into the terminal and press enter
+- Make sure you are in the `project` folder when you enter the command
+- Enter `cd ~/project` to get to the project folder if you aren't there
+
 ## 30. Nano `castle.sh`
 
 ### 30.1
 
-Nano is a program for editing files that runs in the terminal. You can open a file with `nano filename`. Open the `castle.sh` file you created with Nano.
+There it is. Nano is a program for editing files that runs in the terminal. You can open a file with `nano filename`. Open the `castle.sh` file you created with Nano.
 
 #### HINTS
 

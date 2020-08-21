@@ -31,6 +31,12 @@ levels:
         setup:
           watchers:
             - ../.bash_history
+  - id: '25'
+    steps:
+      - id: '25.1'
+        setup:
+          watchers:
+            - ../.bash_history
   - id: '30'
     steps:
       - id: '30.1'

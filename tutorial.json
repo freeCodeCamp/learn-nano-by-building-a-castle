@@ -133,7 +133,8 @@
           "content": "The terminal is showing your file in Nano. At the bottom are the commands you can use. Your file is empty right now. Add `echo hello nano` at the top and press `control + o` to \"write-out\", or save, the file. You will be prompted at the bottom for a filename. Leave it as `castle.sh` and press enter to save the file.",
           "hints": [
             "Put `echo hello nano` at the top of the file, then press `control + o`, then `enter` to save the file",
-            "Make sure the file was saved as `castle.sh`"
+            "Make sure the file was saved as `castle.sh`",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -158,7 +159,8 @@
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
-            "Open the file with `nano castle.sh` if you need to open it first"
+            "Open the file with `nano castle.sh` if you need to open it first",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -182,7 +184,8 @@
           "content": "The `.sh` extension on your file means it can run in the terminal as if you entered the commands. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.",
           "hints": [
             "Type `bash castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -206,7 +209,8 @@
           "content": "You can see the command in your file ran and output text into the terminal. Open your file again with nano.",
           "hints": [
             "Type `nano castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -232,7 +236,8 @@
             "You cannot use a mouse to move your cursor",
             "Remove the `echo hello nano` line of text and save the file",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -257,7 +262,8 @@
           "hints": [
             "Your file should match the example",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -282,7 +288,8 @@
           "hints": [
             "Your file should match the example",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -307,7 +314,8 @@
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
-            "Open the file with `nano castle.sh` if you need to open it first"
+            "Open the file with `nano castle.sh` if you need to open it first",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -331,7 +339,8 @@
           "content": "Use the `bash` command to run your `castle.sh` file in the terminal again.",
           "hints": [
             "Type `bash castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -355,7 +364,8 @@
           "content": "Looks like it's working. Open your file with Nano.",
           "hints": [
             "Type `nano castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -381,7 +391,8 @@
             "Don't change the other rows",
             "Your castle should match the example",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -407,7 +418,8 @@
             "Don't change the other rows",
             "Your castle should match the example",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -432,7 +444,8 @@
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
-            "Open the file with `nano castle.sh` if you need to open it first"
+            "Open the file with `nano castle.sh` if you need to open it first",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -456,7 +469,8 @@
           "content": "Run your file again to see the progress.",
           "hints": [
             "Type `bash castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -481,7 +495,8 @@
           "hints": [
             "Use Nano to open the file",
             "Type `nano castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -506,7 +521,8 @@
           "hints": [
             "Your castle should match the example",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -533,7 +549,8 @@
             "Your top row should match the example",
             "You should not change any other rows",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -558,7 +575,8 @@
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
-            "Open the file with `nano castle.sh` if you need to open it first"
+            "Open the file with `nano castle.sh` if you need to open it first",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -583,7 +601,8 @@
           "hints": [
             "Use the `bash` command to run the script",
             "Type `bash castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -607,7 +626,8 @@
           "content": "That construction team must be working hard :smile: Open the file again to continue building.",
           "hints": [
             "Type `nano castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -633,7 +653,8 @@
             "The top of the castle should match the top row of the example",
             "The castle should now be seven stories high",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -659,7 +680,8 @@
             "Your top row should match the top row of the example",
             "The castle should now be nine stories high",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -684,7 +706,8 @@
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
-            "Open the file with `nano castle.sh` if you need to open it first"
+            "Open the file with `nano castle.sh` if you need to open it first",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -698,6 +721,9 @@
         {
           "id": "270.1",
           "setup": {
+            "commands": [
+              "bash ./.freeCodeCamp/reset.sh"
+            ],
             "watchers": [
               "../.bash_history"
             ],
@@ -709,7 +735,8 @@
           "hints": [
             "Use `bash` to run the script",
             "Type `bash castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -734,7 +761,8 @@
           "hints": [
             "Use the `nano` command to open your file",
             "Type `nano castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -759,7 +787,8 @@
           "hints": [
             "Put a space in place each `x` in the example",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -784,7 +813,8 @@
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
-            "Open the file with `nano castle.sh` if you need to open it first"
+            "Open the file with `nano castle.sh` if you need to open it first",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -809,7 +839,8 @@
           "hints": [
             "Use `bash` to run the script",
             "Type `bash castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -834,7 +865,8 @@
           "hints": [
             "Use the `nano` command to open your file",
             "Type `nano castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -861,7 +893,8 @@
             "There's three spaces between a `|` and window",
             "There's four spaces between a window and another window",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -886,7 +919,8 @@
           "hints": [
             "Make sure your bottom two rows look like the example",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -911,7 +945,8 @@
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
-            "Open the file with `nano castle.sh` if you need to open it first"
+            "Open the file with `nano castle.sh` if you need to open it first",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -936,7 +971,8 @@
           "hints": [
             "Use `bash` to run the script",
             "Type `bash castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -961,7 +997,8 @@
           "hints": [
             "Use the `nano` command to open your file",
             "Type `nano castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -988,7 +1025,8 @@
             "The correct message is `Welcome to my castle`",
             "Put all this at the very top of the file",
             "Use `control + o` to save the file",
-            "Press `enter` after `control + o` to save the file without changing the name"
+            "Press `enter` after `control + o` to save the file without changing the name",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -1013,7 +1051,8 @@
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
-            "Open the file with `nano castle.sh` if you need to open it first"
+            "Open the file with `nano castle.sh` if you need to open it first",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]
@@ -1038,7 +1077,8 @@
           "hints": [
             "Use `bash` to run the script",
             "Type `bash castle.sh` in the terminal",
-            "Make sure you are in the `project` folder when you enter the command"
+            "Make sure you are in the `project` folder when you enter the command",
+            "If you are trying to reset, exit nano first"
           ]
         }
       ]

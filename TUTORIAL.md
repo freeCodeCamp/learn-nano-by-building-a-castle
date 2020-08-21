@@ -249,7 +249,7 @@ Open your file again so you can add some more.
 
 ### 190.1
 
-You can use `control + k` to "cut" and `control + u` to "uncut", or paste, a line. Add five more rows like you just added to make your castle six stories high. Try to use the cut and paste method. It should look like this:
+You can use `control + k` to "cut" and `control + u` to "uncut", or paste, a line. Add five more rows like the one you just added to make your castle six stories high. Try to use the cut and paste method. It should look like this:
 
 ```
 |                    |
@@ -292,7 +292,7 @@ There's two spaces between the first and second bars, followed by 14 underscores
 
 ### 210.1
 
-Use the exit command to get back to the terminal.
+The `M` at the beginning of the other commands at the bottom stands for "meta". It's a key that doesn't exist on most keyboards. If you're on OSX it means press `escape` then then the letter. If you on another system, press `ALT` then the letter. Use the exit command to get back to the terminal.
 
 #### HINTS
 

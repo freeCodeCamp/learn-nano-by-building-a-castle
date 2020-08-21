@@ -94,7 +94,7 @@ You can "cut" text with `control + k`. Move the cursor to the line with your tex
 
 - You cannot use a mouse to move your cursor
 - Remove the `echo hello nano` line of text and save the file
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 
 ## 90. Add `echo ""`
@@ -114,7 +114,7 @@ When you are done, save the file.
 #### HINTS
 
 - Your file should match the example
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 
 ## 100. Add the bottom row to castle
@@ -123,7 +123,7 @@ When you are done, save the file.
 
 You will draw the castle between the quotes. Add ground level by putting 20 underscores (`_`) in the row between the quotes. It should look like this:
 
-```bash
+```
 echo "
 ____________________
 "
@@ -134,7 +134,7 @@ Save the file when you are done.
 #### HINTS
 
 - Your file should match the example
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 
 ## 110. Exit
@@ -187,7 +187,7 @@ Save the file when you are done.
 
 - Don't change the other rows
 - Your castle should match the example
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 
 ## 150. Add second row
@@ -196,7 +196,7 @@ Save the file when you are done.
 
 Add another story to your castle above the ground level that has two more vertical bars. Each bar should be above your existing bars so you need spaces in between them. It should look like this:
 
-```bash
+```
 |                    |
 |____________________|
 ```
@@ -207,7 +207,7 @@ When you are done, save the file.
 
 - Don't change the other rows
 - Your castle should match the example
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 
 ## 160. Exit
@@ -251,7 +251,7 @@ Open your file again so you can add some more.
 
 You can use `control + k` to "cut" and `control + u` to "uncut", or paste, a line. Add five more rows like you just added to make your castle six stories high. Try to use the cut and paste method. It should look like this:
 
-```bash
+```
 |                    |
 |                    |
 |                    |
@@ -265,7 +265,7 @@ When you are done, save the file.
 #### HINTS
 
 - Your castle should match the example
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 
 ## 200. Add a roof to the castle
@@ -274,7 +274,7 @@ When you are done, save the file.
 
 The existing top row is going to be the roof of the castle. Make it look like this:
 
-```bash
+```
 |  |______________|  |
 ```
 
@@ -285,7 +285,7 @@ There's two spaces between the first and second bars, followed by 14 underscores
 - Make sure your castle is still six stories high
 - Your top row should match the example
 - You should not change any other rows
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 
 ## 210. Exit
@@ -329,7 +329,7 @@ That construction team must be working hard :smile: Open the file again to conti
 
 The top of the castle has a lookout tower on each end. Add a single row at the top of your castle to make the top look like this:
 
-```bash
+```
 /  \              /  \
 |  |______________|  |
 ```
@@ -340,7 +340,7 @@ The slashes are directly above the vertical bars with two spaces in between agai
 
 - The top of the castle should match the top row of the example
 - The castle should now be seven stories high
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 
 ## 250. Add the peaks
@@ -349,7 +349,7 @@ The slashes are directly above the vertical bars with two spaces in between agai
 
 Add the peaks of your lookout towers. Put another row at the top with `/\` above each lookout. It should look like this:
 
-```bash
+```
  /\                /\
 /  \              /  \
 ```
@@ -360,9 +360,8 @@ When you are done, save the file.
 
 - Your top row should match the top row of the example
 - The castle should now be nine stories high
-- Use `control + o` to save the file.
+- Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
-- Do not change the name of the file
 
 ## 260. Exit
 
@@ -392,7 +391,7 @@ Run your script to bask in the glory of your work.
 
 ### 280.1
 
-Oh no!! Looks like a storm came through and blew the roof off! :frown: I think we can fix it. Open the file.
+Oh no!! :open_mouth: Looks like a storm came through and blew the roof off! I think we can fix it. Open up the file.
 
 #### HINTS
 
@@ -404,19 +403,26 @@ Oh no!! Looks like a storm came through and blew the roof off! :frown: I think w
 
 ### 290.1
 
-fix the roof
+I'm not quite sure what happened here... Some of the `\` don't seem to be working. Try adding a space after the two `\` on the top right lookout tower. Put them where these `x`'s are:
+
+```
+ /\                /\x
+/  \              /  \x
+```
+
+Maybe that will patch the roof. When you are done, save the file.
 
 #### HINTS
 
-- Use the `nano` command to open your file
-- Type `nano castle.sh` in the terminal
-- Make sure you are in the `project` folder when you enter the command
+- Put a space in place each `x` in the example
+- Use `control + o` to save the file
+- Press `enter` after `control + o` to save the file without changing the name
 
 ## 300. Exit
 
 ### 300.1
 
-Go back to the terminal with the exit command.
+Go back to the terminal so you can run the script again.
 
 #### HINTS
 
@@ -428,7 +434,7 @@ Go back to the terminal with the exit command.
 
 ### 310.1
 
-Run your script to bask in the glory of your work.
+Run the script to see if the roof is fixed.
 
 #### HINTS
 
@@ -440,7 +446,7 @@ Run your script to bask in the glory of your work.
 
 ### 320.1
 
-Oh no!! Looks like a storm came through and blew the roof off! :frown: I think we can fix it. Open the file.
+Okay, it's all patched up. Open the file again.
 
 #### HINTS
 
@@ -452,31 +458,46 @@ Oh no!! Looks like a storm came through and blew the roof off! :frown: I think w
 
 ### 330.1
 
-Oh no!! Looks like a storm came through and blew the roof off! :frown: I think we can fix it. Open the file.
+Add some windows to your castle. Use a left and right bracket for them (`[]`). Put three of them on the fourth story, like this:
+
+```
+|   []    []    []   |
+```
+
+There's four spaces between each window and three on each side. Save the file when you are done.
 
 #### HINTS
 
-- Use the `nano` command to open your file
-- Type `nano castle.sh` in the terminal
-- Make sure you are in the `project` folder when you enter the command
+- Add three windows to the fourth row from the bottom exactly like the example
+- There's three spaces between a `|` and window
+- There's four spaces between a window and another window
+- Use `control + o` to save the file
+- Press `enter` after `control + o` to save the file without changing the name
 
-## 340. Add a door
+## 340. Add the door
 
 ### 340.1
 
-Oh no!! Looks like a storm came through and blew the roof off! :frown: I think we can fix it. Open the file.
+Last is the door. Change the bottom two rows so there's a door right in the middle that looks like this:
+
+```
+|         __         |
+|________|  |________|
+```
+
+The bottom row has two vertical bars with two spaces between them and the second story has two underscore to make the top of the door. When you are done, save the file.
 
 #### HINTS
 
-- Use the `nano` command to open your file
-- Type `nano castle.sh` in the terminal
-- Make sure you are in the `project` folder when you enter the command
+- Make sure your bottom two rows look like the example
+- Use `control + o` to save the file
+- Press `enter` after `control + o` to save the file without changing the name
 
 ## 350. Exit
 
 ### 350.1
 
-Go back to the terminal with the exit command.
+Go back to the terminal with the command to exit nano.
 
 #### HINTS
 
@@ -488,7 +509,7 @@ Go back to the terminal with the exit command.
 
 ### 360.1
 
-Run your script to bask in the glory of your work.
+Run your script again. Hopefully the weather has been good.
 
 #### HINTS
 
@@ -500,7 +521,7 @@ Run your script to bask in the glory of your work.
 
 ### 370.1
 
-Oh no!! Looks like a storm came through and blew the roof off! :frown: I think we can fix it. Open the file.
+Excellent. Open the file, I think there's one more thing you can add.
 
 #### HINTS
 
@@ -508,23 +529,33 @@ Oh no!! Looks like a storm came through and blew the roof off! :frown: I think w
 - Type `nano castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
 
-## 380. Name your castle
+## 380. Add a welcome
 
 ### 380.1
 
-Oh no!! Looks like a storm came through and blew the roof off! :frown: I think we can fix it. Open the file.
+At the very top of the file, add another `echo` command with two quotes and an empty line between the quotes. In the empty line put the message, "Welcome to my castle". Here's an example:
+
+```
+echo "
+message here
+"
+```
+
+When you are done, save the file.
 
 #### HINTS
 
-- Use the `nano` command to open your file
-- Type `nano castle.sh` in the terminal
-- Make sure you are in the `project` folder when you enter the command
+- Add the code above but replace `message here` with the correct message
+- The correct message is `Welcome to my castle`
+- Put all this at the very top of the file
+- Use `control + o` to save the file
+- Press `enter` after `control + o` to save the file without changing the name
 
 ## 390. Exit
 
 ### 390.1
 
-Go back to the terminal with the exit command.
+Go back to the terminal with the exit command so you can see if it's all done.
 
 #### HINTS
 
@@ -536,7 +567,7 @@ Go back to the terminal with the exit command.
 
 ### 400.1
 
-Run your script to bask in the glory of your work.
+Run the script to see your final product :smile:
 
 #### HINTS
 

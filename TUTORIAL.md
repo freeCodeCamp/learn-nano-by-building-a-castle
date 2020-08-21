@@ -458,13 +458,13 @@ Okay, it's all patched up. Open the file again.
 
 ### 330.1
 
-Add some windows to your castle. Use a left and right bracket for them (`[]`). Put three of them on the fourth story, like this:
+Add some windows to your castle. Use a left and right brackets for them (`[]`). Put three pairs on the fourth story, like this:
 
 ```
 |   []    []    []   |
 ```
 
-There's four spaces between each window and three on each side. Save the file when you are done.
+There's four spaces between each window and three the sides. Save the file when you are done.
 
 #### HINTS
 
@@ -497,7 +497,7 @@ The bottom row has two vertical bars with two spaces between them and the second
 
 ### 350.1
 
-Go back to the terminal with the command to exit nano.
+Nano has a lot more features, but the basics will get you through most scenarios. Go back to the terminal with the command to exit nano.
 
 #### HINTS
 

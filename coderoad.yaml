@@ -12,6 +12,9 @@ config:
   repo:
     uri: https://github.com/moT01/learn-nano-by-building-a-castle
     branch: v0.1.2
+  reset:
+    commands:
+      - 'bash ./.freeCodeCamp/reset.sh'
   dependencies:
     - name: node
       version: '>=10'

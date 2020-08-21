@@ -179,6 +179,8 @@ levels:
     steps:
       - id: '270.1'
         setup:
+          commands:
+            - 'bash ./.freeCodeCamp/reset.sh'
           watchers:
             - ../.bash_history
   - id: '280'

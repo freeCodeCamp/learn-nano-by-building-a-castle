@@ -49,6 +49,7 @@ The terminal is showing your file in Nano. At the bottom are the commands you ca
 
 - Put `echo hello nano` at the top of the file, then press `control + o`, then `enter` to save the file
 - Make sure the file was saved as `castle.sh`
+- If you are trying to reset, exit nano first
 
 ## 50. Exit
 
@@ -61,6 +62,7 @@ Exit Nano by pressing `control + x`.
 - Use `control + x` to exit nano
 - Make sure you are in the `castle.sh` file before you exit
 - Open the file with `nano castle.sh` if you need to open it first
+- If you are trying to reset, exit nano first
 
 ## 60. Run `castle.sh`
 
@@ -72,6 +74,7 @@ The `.sh` extension on your file means it can run in the terminal as if you ente
 
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 70. Nano `castle.sh`
 
@@ -83,6 +86,7 @@ You can see the command in your file ran and output text into the terminal. Open
 
 - Type `nano castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 80. Delete `echo hello nano`
 
@@ -96,6 +100,7 @@ You can "cut" text with `control + k`. Move the cursor to the line with your tex
 - Remove the `echo hello nano` line of text and save the file
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 90. Add `echo ""`
 
@@ -116,6 +121,7 @@ When you are done, save the file.
 - Your file should match the example
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 100. Add the bottom row to castle
 
@@ -136,6 +142,7 @@ Save the file when you are done.
 - Your file should match the example
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 110. Exit
 
@@ -148,6 +155,7 @@ The `^` in front of all the commands at the bottom means to press `control` and 
 - Use `control + x` to exit nano
 - Make sure you are in the `castle.sh` file before you exit
 - Open the file with `nano castle.sh` if you need to open it first
+- If you are trying to reset, exit nano first
 
 ## 120. Run `castle.sh`
 
@@ -159,6 +167,7 @@ Use the `bash` command to run your `castle.sh` file in the terminal again.
 
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 130. Nano `castle.sh`
 
@@ -170,6 +179,7 @@ Looks like it's working. Open your file with Nano.
 
 - Type `nano castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 140. Add the bottom row sides
 
@@ -189,6 +199,7 @@ Save the file when you are done.
 - Your castle should match the example
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 150. Add second row
 
@@ -209,6 +220,7 @@ When you are done, save the file.
 - Your castle should match the example
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 160. Exit
 
@@ -221,6 +233,7 @@ Exit Nano so we can run the script again.
 - Use `control + x` to exit nano
 - Make sure you are in the `castle.sh` file before you exit
 - Open the file with `nano castle.sh` if you need to open it first
+- If you are trying to reset, exit nano first
 
 ## 170. Run `castle.sh`
 
@@ -232,6 +245,7 @@ Run your file again to see the progress.
 
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 180. Nano `castle.sh`
 
@@ -244,6 +258,7 @@ Open your file again so you can add some more.
 - Use Nano to open the file
 - Type `nano castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 190. Add the sides of the castle
 
@@ -267,6 +282,7 @@ When you are done, save the file.
 - Your castle should match the example
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 200. Add a roof to the castle
 
@@ -287,6 +303,7 @@ There's two spaces between the first and second bars, followed by 14 underscores
 - You should not change any other rows
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 210. Exit
 
@@ -299,6 +316,7 @@ The `M` at the beginning of the other commands at the bottom stands for "meta". 
 - Use `control + x` to exit nano
 - Make sure you are in the `castle.sh` file before you exit
 - Open the file with `nano castle.sh` if you need to open it first
+- If you are trying to reset, exit nano first
 
 ## 220. Run `castle.sh`
 
@@ -311,6 +329,7 @@ Run the script to make sure things are coming along as expected.
 - Use the `bash` command to run the script
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 230. Nano `castle.sh`
 
@@ -322,6 +341,7 @@ That construction team must be working hard :smile: Open the file again to conti
 
 - Type `nano castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 240. Add the second from top row
 
@@ -342,6 +362,7 @@ The slashes are directly above the vertical bars with two spaces in between agai
 - The castle should now be seven stories high
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 250. Add the peaks
 
@@ -362,6 +383,7 @@ When you are done, save the file.
 - The castle should now be nine stories high
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 260. Exit
 
@@ -374,6 +396,7 @@ Go back to the terminal with the exit command.
 - Use `control + x` to exit nano
 - Make sure you are in the `castle.sh` file before you exit
 - Open the file with `nano castle.sh` if you need to open it first
+- If you are trying to reset, exit nano first
 
 ## 270. Run `castle.sh`
 
@@ -386,6 +409,7 @@ Run your script to bask in the glory of your work.
 - Use `bash` to run the script
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 280. Nano `castle.sh`
 
@@ -398,6 +422,7 @@ Oh no!! :open_mouth: Looks like a storm came through and blew the roof off! I th
 - Use the `nano` command to open your file
 - Type `nano castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 290. Fix the roof
 
@@ -417,6 +442,7 @@ Maybe that will patch the roof. When you are done, save the file.
 - Put a space in place each `x` in the example
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 300. Exit
 
@@ -429,6 +455,7 @@ Go back to the terminal so you can run the script again.
 - Use `control + x` to exit nano
 - Make sure you are in the `castle.sh` file before you exit
 - Open the file with `nano castle.sh` if you need to open it first
+- If you are trying to reset, exit nano first
 
 ## 310. Run `castle.sh`
 
@@ -441,6 +468,7 @@ Run the script to see if the roof is fixed.
 - Use `bash` to run the script
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 320. Nano `castle.sh`
 
@@ -453,6 +481,7 @@ Okay, it's all patched up. Open the file again.
 - Use the `nano` command to open your file
 - Type `nano castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 330. Add windows
 
@@ -473,6 +502,7 @@ There's four spaces between each window and three the sides. Save the file when 
 - There's four spaces between a window and another window
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 340. Add the door
 
@@ -492,6 +522,7 @@ The bottom row has two vertical bars with two spaces between them and the second
 - Make sure your bottom two rows look like the example
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 350. Exit
 
@@ -504,6 +535,7 @@ Nano has a lot more features, but the basics will get you through most scenarios
 - Use `control + x` to exit nano
 - Make sure you are in the `castle.sh` file before you exit
 - Open the file with `nano castle.sh` if you need to open it first
+- If you are trying to reset, exit nano first
 
 ## 360. Run `castle.sh`
 
@@ -516,6 +548,7 @@ Run your script again. Hopefully the weather has been good.
 - Use `bash` to run the script
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 370. Nano `castle.sh`
 
@@ -528,6 +561,7 @@ Excellent. Open the file, I think there's one more thing you can add.
 - Use the `nano` command to open your file
 - Type `nano castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first
 
 ## 380. Add a welcome
 
@@ -550,6 +584,7 @@ When you are done, save the file.
 - Put all this at the very top of the file
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
+- If you are trying to reset, exit nano first
 
 ## 390. Exit
 
@@ -562,6 +597,7 @@ Go back to the terminal with the exit command so you can see if it's all done.
 - Use `control + x` to exit nano
 - Make sure you are in the `castle.sh` file before you exit
 - Open the file with `nano castle.sh` if you need to open it first
+- If you are trying to reset, exit nano first
 
 ## 400. Run `castle.sh`
 
@@ -574,3 +610,4 @@ Run the script to see your final product :smile:
 - Use `bash` to run the script
 - Type `bash castle.sh` in the terminal
 - Make sure you are in the `project` folder when you enter the command
+- If you are trying to reset, exit nano first

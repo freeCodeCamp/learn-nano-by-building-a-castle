@@ -53,6 +53,8 @@ levels:
     steps:
       - id: '60.1'
         setup:
+          commands:
+            - 'bash ./.freeCodeCamp/reset.sh'
           watchers:
             - ../.bash_history
   - id: '70'
@@ -89,6 +91,8 @@ levels:
     steps:
       - id: '120.1'
         setup:
+          commands:
+            - 'bash ./.freeCodeCamp/reset.sh'
           watchers:
             - ../.bash_history
   - id: '130'
@@ -119,6 +123,8 @@ levels:
     steps:
       - id: '170.1'
         setup:
+          commands:
+            - 'bash ./.freeCodeCamp/reset.sh'
           watchers:
             - ../.bash_history
   - id: '180'
@@ -149,6 +155,8 @@ levels:
     steps:
       - id: '220.1'
         setup:
+          commands:
+            - 'bash ./.freeCodeCamp/reset.sh'
           watchers:
             - ../.bash_history
   - id: '230'
@@ -205,6 +213,8 @@ levels:
     steps:
       - id: '310.1'
         setup:
+          commands:
+            - 'bash ./.freeCodeCamp/reset.sh'
           watchers:
             - ../.bash_history
   - id: '320'
@@ -235,6 +245,8 @@ levels:
     steps:
       - id: '360.1'
         setup:
+          commands:
+            - 'bash ./.freeCodeCamp/reset.sh'
           watchers:
             - ../.bash_history
   - id: '370'
@@ -259,5 +271,7 @@ levels:
     steps:
       - id: '400.1'
         setup:
+          commands:
+            - 'bash ./.freeCodeCamp/reset.sh'
           watchers:
             - ../.bash_history

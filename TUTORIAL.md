@@ -80,7 +80,7 @@ Exit Nano by pressing `control + x`.
 
 ### 60.1
 
-The `.sh` extension on your file means it can run in the terminal as if you entered the commands. You can run a `.sh` file with `bash filename`. Run your `castle.sh` file in the terminal.
+This will be a small bash script. You can run it with `bash filename`. Run your `castle.sh` file in the terminal.
 
 #### HINTS
 
@@ -104,11 +104,10 @@ You can see the command in your file ran and output text into the terminal. Open
 
 ### 80.1
 
-You can "cut" text with `control + k`. Move the cursor to the line with your text and remove the whole line. When you are done, save the file. Note that you cannot use a mouse to move your cursor.
+You can "cut" text with `control + k`. Move the cursor to the line with your text and remove the whole line. When you are done, save the file with `control + o`. Note that you cannot use a mouse to move your cursor.
 
 #### HINTS
 
-- You cannot use a mouse to move your cursor
 - Remove the `echo hello nano` line of text and save the file
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
@@ -126,7 +125,7 @@ echo "
 "
 ```
 
-When you are done, save the file.
+When you are done, save the file with `control + o`.
 
 #### HINTS
 
@@ -147,7 +146,7 @@ ____________________
 "
 ```
 
-Save the file when you are done.
+Save the file with `control + o` when you are done.
 
 #### HINTS
 
@@ -212,6 +211,12 @@ Save the file when you are done.
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole file should look like this:
+```sh
+echo "
+|____________________|
+"
+```
 
 ## 150. Add second row
 
@@ -233,12 +238,19 @@ When you are done, save the file.
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole file should look like this:
+```sh
+echo "
+|                    |
+|____________________|
+"
+```
 
 ## 160. Exit
 
 ### 160.1
 
-Exit Nano so we can run the script again.
+Exit Nano so you can run the script again.
 
 #### HINTS
 
@@ -295,6 +307,17 @@ When you are done, save the file.
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole file should look like this:
+```sh
+echo "
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|____________________|
+"
+```
 
 ## 200. Add a roof to the castle
 
@@ -306,7 +329,7 @@ The existing top row is going to be the roof of the castle. Make it look like th
 |  |______________|  |
 ```
 
-There's two spaces between the first and second bars, followed by 14 underscores and then a repeat of the bars and spaces. When you are done, save the file.
+There's two spaces between the first and second bars, followed by 14 underscores (`_`), then a repeat of the bars and spaces. When you are done, save the file.
 
 #### HINTS
 
@@ -316,12 +339,23 @@ There's two spaces between the first and second bars, followed by 14 underscores
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole castle should look like this:
+```sh
+echo "
+|  |______________|  |
+|                    |
+|                    |
+|                    |
+|                    |
+|____________________|
+"
+```
 
 ## 210. Exit
 
 ### 210.1
 
-The `M` at the beginning of the other commands at the bottom stands for "meta". It's a key that doesn't exist on most keyboards. If you're on OSX it means press `escape` then then the letter. If you on another system, press `ALT` then the letter. Use the exit command to get back to the terminal.
+The `M` at the beginning of the other commands at the bottom stands for "meta". It's a key that doesn't exist on most keyboards. If you're on OSX it means press `escape` then then the letter. If you are on another system, press `ALT` then the letter. Use the exit command to get back to the terminal.
 
 #### HINTS
 
@@ -366,7 +400,7 @@ The top of the castle has a lookout tower on each end. Add a single row at the t
 |  |______________|  |
 ```
 
-The slashes are directly above the vertical bars with two spaces in between again. When you are done, save the file.
+The slashes are directly above the vertical bars. When you are done, save the file.
 
 #### HINTS
 
@@ -375,6 +409,18 @@ The slashes are directly above the vertical bars with two spaces in between agai
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole castle should look like this:
+```sh
+echo "
+/  \              /  \
+|  |______________|  |
+|                    |
+|                    |
+|                    |
+|                    |
+|____________________|
+"
+```
 
 ## 250. Add the peaks
 
@@ -396,6 +442,19 @@ When you are done, save the file.
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole castle should look like this:
+```sh
+echo "
+ /\                /\
+/  \              /  \
+|  |______________|  |
+|                    |
+|                    |
+|                    |
+|                    |
+|____________________|
+"
+```
 
 ## 260. Exit
 
@@ -455,6 +514,19 @@ Maybe that will patch the roof. When you are done, save the file.
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole castle should look like this, but with spaces instead of `x`'s:
+```sh
+echo "
+ /\                /\x
+/  \              /  \x
+|  |______________|  |
+|                    |
+|                    |
+|                    |
+|                    |
+|____________________|
+"
+```
 
 ## 300. Exit
 
@@ -505,7 +577,7 @@ Add some windows to your castle. Use a left and right brackets for them (`[]`). 
 |   []    []    []   |
 ```
 
-There's four spaces between each window and three the sides. Save the file when you are done.
+There's four spaces between each window and three between the window and the sides. Save the file when you are done.
 
 #### HINTS
 
@@ -515,6 +587,19 @@ There's four spaces between each window and three the sides. Save the file when 
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole castle should look like this, but with spaces instead of `x`:
+```sh
+echo "
+ /\                /\x
+/  \              /  \x
+|  |______________|  |
+|                    |
+|   []    []    []   |
+|                    |
+|                    |
+|____________________|
+"
+```
 
 ## 340. Add the door
 
@@ -527,7 +612,7 @@ Last is the door. Change the bottom two rows so there's a door right in the midd
 |________|  |________|
 ```
 
-The bottom row has two vertical bars with two spaces between them and the second story has two underscore to make the top of the door. When you are done, save the file.
+The bottom row has two vertical bars with two spaces between them and the second story has two underscores to make the top of the door. When you are done, save the file.
 
 #### HINTS
 
@@ -535,6 +620,19 @@ The bottom row has two vertical bars with two spaces between them and the second
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole castle should look like this, but with spaces instead of `x`:
+```sh
+echo "
+ /\                /\x
+/  \              /  \x
+|  |______________|  |
+|                    |
+|   []    []    []   |
+|                    |
+|         __         |
+|________|  |________|
+"
+```
 
 ## 350. Exit
 
@@ -597,6 +695,23 @@ When you are done, save the file.
 - Use `control + o` to save the file
 - Press `enter` after `control + o` to save the file without changing the name
 - If you are trying to reset, exit nano first
+- The whole castle should look like this, but with spaces instead of `x`:
+```sh
+echo "
+Welcome to my castle
+"
+
+echo "
+ /\                /\x
+/  \              /  \x
+|  |______________|  |
+|                    |
+|   []    []    []   |
+|                    |
+|         __         |
+|________|  |________|
+"
+```
 
 ## 390. Exit
 
@@ -615,7 +730,7 @@ Go back to the terminal with the exit command so you can see if it's all done.
 
 ### 400.1
 
-Run the script to see your final product :smile:
+This is the last step. Run the script to see your final product :smile:
 
 #### HINTS
 

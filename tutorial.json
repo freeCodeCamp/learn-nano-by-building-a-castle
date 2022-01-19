@@ -1,4 +1,5 @@
 {
+  "id": "freeCodeCamp/learn-nano-by-building-a-castle:v1.0.0",
   "version": "1.0.1",
   "summary": {
     "title": "Learn Nano by Building a Castle",
@@ -24,6 +25,12 @@
     "repo": {
       "uri": "https://github.com/freeCodeCamp/learn-nano-by-building-a-castle",
       "branch": "v1.0.1"
+    },
+    "continue": {
+      "commands": [
+        "bash ./.freeCodeCamp/setup.sh",
+        "bash ./.freeCodeCamp/reset.sh"
+      ]
     },
     "reset": {
       "commands": [

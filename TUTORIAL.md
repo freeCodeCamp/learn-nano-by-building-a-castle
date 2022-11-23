@@ -355,7 +355,7 @@ echo "
 
 ### 210.1
 
-The `M` at the beginning of the other commands at the bottom stands for "meta". It's a key that doesn't exist on most keyboards. If you're on OSX it means press `escape` then then the letter. If you are on another system, press `ALT` then the letter. Use the exit command to get back to the terminal.
+The `M` at the beginning of the other commands at the bottom stands for "meta". It's a key that doesn't exist on most keyboards. If you're on OSX it means press `escape` then the letter. If you are on another system, press `ALT` then the letter. Use the exit command to get back to the terminal.
 
 #### HINTS
 
@@ -381,7 +381,7 @@ Run the script to make sure things are coming along as expected.
 
 ### 230.1
 
-That construction team must be working hard :smile: Open the file again to continue building.
+That construction team must be working hard :smile: . Open the file again to continue building.
 
 #### HINTS
 

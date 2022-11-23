@@ -637,7 +637,7 @@
               "12a9f546b437d1de405fcd093e5f6de6ccd4a7a6"
             ]
           },
-          "content": "The `M` at the beginning of the other commands at the bottom stands for \"meta\". It's a key that doesn't exist on most keyboards. If you're on OSX it means press `escape` then then the letter. If you are on another system, press `ALT` then the letter. Use the exit command to get back to the terminal.",
+          "content": "The `M` at the beginning of the other commands at the bottom stands for \"meta\". It's a key that doesn't exist on most keyboards. If you're on OSX it means press `escape` then the letter. If you are on another system, press `ALT` then the letter. Use the exit command to get back to the terminal.",
           "hints": [
             "Use `control + x` to exit nano",
             "Make sure you are in the `castle.sh` file before you exit",
@@ -692,7 +692,7 @@
               "448bb940c7971cf4a80c7dcc9c312f71c5855479"
             ]
           },
-          "content": "That construction team must be working hard :smile: Open the file again to continue building.",
+          "content": "That construction team must be working hard :smile: . Open the file again to continue building.",
           "hints": [
             "Type `nano castle.sh` in the terminal",
             "Make sure you are in the `project` folder when you enter the command",
